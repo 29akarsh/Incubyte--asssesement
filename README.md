@@ -1,8 +1,6 @@
-# 🍬 Sweet Shop Management System
+ 🍬 Sweet Shop Management System
 
-A full-stack web application for managing a sweet shop, built with modern technologies and following Test-Driven Development (TDD) principles.
-
-## 📋 Table of Contents
+A full-stack web application for managing a sweet shop, built with modern technologies and following Test-Driven Development (TDD) principles📋 Table of Contents
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -14,8 +12,8 @@ A full-stack web application for managing a sweet shop, built with modern techno
 - [My AI Usage](#my-ai-usage)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
-
-## ✨ Features
+-
+- ✨ Features
 
 ### User Features
 - User registration and authentication with JWT tokens
@@ -51,13 +49,13 @@ A full-stack web application for managing a sweet shop, built with modern techno
 - **HTTP Client**: Axios
 - **Styling**: CSS3 (Custom)
 
-## 📦 Prerequisites
+📦 Prerequisites
 
 Before you begin, ensure you have the following installed:
 - Node.js (v18 or higher)
 - npm (v9 or higher)
 
-## 🚀 Installation
+ 🚀 Installation
 
 ### 1. Clone the Repository
 
@@ -117,8 +115,7 @@ npm install
 # Create .env file
 cp .env.example .env
 ```
-
-## 🏃 Running the Application
+🏃 Running the Application
 
 ### Start Backend Server
 
@@ -154,7 +151,7 @@ After seeding the database, you can use these credentials:
 - Email: `user@sweetshop.com`
 - Password: `user123`
 
-## 🧪 Testing
+🧪 Testing
 
 ### Backend Tests
 
@@ -187,7 +184,7 @@ The project maintains high test coverage with comprehensive tests for:
 - Purchase and restock functionality
 - Search and filter operations
 
-## 📚 API Documentation
+📚 API Documentation
 
 ### Base URL
 ```
@@ -286,88 +283,31 @@ Content-Type: application/json
 }
 ```
 
-## 🤖 My AI Usage
+🤖 AI Usage
 
-### AI Tools Used
+This project was developed using a combination of AI tools (including large language models such as ChatGPT and Claude, along with AI-powered code assistants) as productivity and pair-programming aids.
 
-I used **Augment AI Agent** (powered by Claude Sonnet 4.5 by Anthropic) throughout this project to accelerate development while maintaining code quality and following TDD principles.
+How AI Was Used
+Brainstorming and validating system architecture and API design
 
-### How I Used AI
+Drafting unit tests following a Test-Driven Development (TDD) approach
 
-#### 1. Project Architecture & Planning
-- **What I did**: Asked the AI to help design the overall architecture, including the separation of concerns between backend and frontend, database schema design, and API endpoint structure.
-- **Impact**: Saved significant time in the planning phase and ensured I followed industry best practices for a full-stack application.
+Accelerating boilerplate setup (TypeScript, Jest, Express, React)
 
-#### 2. Test-Driven Development (TDD)
-- **What I did**: Used AI to help write comprehensive test cases BEFORE implementing the actual functionality. This included:
-  - Unit tests for authentication service (registration, login, password hashing)
-  - Unit tests for sweet management service (CRUD operations, purchase, restock)
-  - Edge cases and error handling scenarios
-- **Impact**: The AI helped me think through all possible test scenarios, ensuring high code coverage and robust error handling. This is evident in the test files where tests were written first, then implementation followed.
+Assisting with database schema design and indexing strategies
 
-#### 3. Boilerplate Code Generation
-- **What I did**: Used AI to generate initial boilerplate for:
-  - TypeScript configuration files (tsconfig.json, jest.config.js)
-  - Express server setup with middleware
-  - Database connection and initialization scripts
-  - React component structure
-- **Impact**: Reduced repetitive coding tasks by approximately 40%, allowing me to focus on business logic and user experience.
+Providing suggestions for frontend components, styling, and UX improvements
 
-#### 4. Database Schema & Migrations
-- **What I did**: Collaborated with AI to design MongoDB document models (Mongoose) with proper indexes, constraints, and migrations.
-  - Implemented paise-based price storage to avoid floating point rounding issues.
-- **Impact**: Ensured optimal database performance with proper indexing on searchable fields (name, category, price_paise).
+Supporting documentation drafting and code comments
 
-#### 5. Frontend Component Development
-- **What I did**: Used AI to help create React components with TypeScript, including:
-  - Authentication context and hooks
-  - Reusable components (SweetCard, SearchBar, SweetForm)
-  - Routing and protected routes
-- **Impact**: Maintained consistent code patterns and TypeScript type safety throughout the frontend.
+Engineering Ownership
+All architectural decisions, business logic, debugging, testing validation, and final code reviews were performed by me.
+AI tools were used to speed up development and improve code quality, not to replace engineering judgment.
 
-#### 6. Styling & UX
-- **What I did**: Asked AI for modern CSS styling patterns and responsive design suggestions.
-- **Impact**: Created a visually appealing, professional-looking interface with smooth transitions and intuitive user experience.
+Outcome
+Using AI tools helped reduce repetitive work, maintain consistent code quality, and allowed greater focus on problem-solving, testing, and system design
 
-#### 7. Error Handling & Validation
-- **What I did**: Used AI to identify potential error scenarios and implement comprehensive validation on both frontend and backend.
-- **Impact**: The application handles edge cases gracefully with user-friendly error messages.
-
-#### 8. Documentation
-- **What I did**: Collaborated with AI to create comprehensive README documentation, API documentation, and inline code comments.
-- **Impact**: Produced clear, professional documentation that makes the project easy to understand and maintain.
-
-### Reflection on AI Impact
-
-**Positive Impacts:**
-- **Speed**: Development time was reduced by approximately 50-60% compared to coding everything manually.
-- **Quality**: AI helped maintain consistent code quality, proper TypeScript typing, and comprehensive test coverage.
-- **Learning**: I learned new patterns and best practices by reviewing AI-generated code and understanding the reasoning behind certain implementations.
-- **Focus**: By automating boilerplate and repetitive tasks, I could focus more on business logic, user experience, and architecture decisions.
-
-**Challenges & Learnings:**
-- **Code Review**: I had to carefully review all AI-generated code to ensure it met the specific requirements and followed the project's patterns.
-- **Context Understanding**: Sometimes the AI needed clarification on specific requirements, teaching me to be more precise in my requests.
-- **Testing Validation**: While AI wrote tests, I had to verify they actually tested the right scenarios and weren't just passing trivially.
-
-**Best Practices I Developed:**
-1. Always review and understand AI-generated code before committing
-2. Use AI for initial structure, then refine based on specific needs
-3. Leverage AI for test case brainstorming to ensure comprehensive coverage
-4. Ask AI to explain complex code patterns to deepen understanding
-
-### Transparency
-
-All code in this project was developed with AI assistance. The AI acted as a pair programming partner, helping with:
-- Code generation
-- Test writing
-- Documentation
-- Debugging
-- Best practice recommendations
-
-However, all final decisions on architecture, implementation details, and code quality were made by me after careful review and understanding of the AI's suggestions.
-
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 sweet-shop-management/
