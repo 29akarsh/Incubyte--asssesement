@@ -1,0 +1,158 @@
+.sweet-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.sweet-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.sweet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 12px;
+}
+
+.sweet-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+  flex: 1;
+}
+
+.sweet-category {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sweet-body {
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.sweet-description {
+  color: #666;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.sweet-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sweet-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4caf50;
+}
+
+.sweet-stock {
+  font-weight: 600;
+  color: #666;
+}
+
+.sweet-stock.out-of-stock {
+  color: #f44336;
+}
+
+.sweet-actions {
+  border-top: 1px solid #eee;
+  padding-top: 16px;
+}
+
+.purchase-section,
+.restock-section {
+  display: flex;
+  gap: 8px;
+}
+
+.purchase-section input,
+.restock-section input {
+  width: 70px;
+  padding: 8px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.btn-purchase,
+.btn-restock {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-purchase {
+  background: #667eea;
+  color: white;
+}
+
+.btn-purchase:hover:not(:disabled) {
+  background: #5568d3;
+}
+
+.btn-purchase:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-restock {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-restock:hover {
+  background: #45a049;
+}
+
+.admin-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-edit {
+  background: #2196f3;
+  color: white;
+}
+
+.btn-edit:hover {
+  background: #1976d2;
+}
+
+.btn-delete {
+  background: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #d32f2f;
+}
+
