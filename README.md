@@ -287,24 +287,26 @@ Content-Type: application/json
 
 This project was developed using a combination of AI tools (including large language models such as ChatGPT and Claude, along with AI-powered code assistants) as productivity and pair-programming aids.
 
-How AI Was Used
-Brainstorming and validating system architecture and API design
+## How AI Was Used
+ 
+1. Brainstorming and validating system architecture and API design
 
-Drafting unit tests following a Test-Driven Development (TDD) approach
+2. Drafting unit tests following a Test-Driven Development (TDD) approach
 
-Accelerating boilerplate setup (TypeScript, Jest, Express, React)
+3. Accelerating boilerplate setup (TypeScript, Jest, Express, React)
 
-Assisting with database schema design and indexing strategies
+4. Assisting with database schema design and indexing strategies
 
-Providing suggestions for frontend components, styling, and UX improvements
+5. Providing suggestions for frontend components, styling, and UX improvements
 
-Supporting documentation drafting and code comments
+6. Supporting documentation drafting and code comments
 
-Engineering Ownership
-All architectural decisions, business logic, debugging, testing validation, and final code reviews were performed by me.
-AI tools were used to speed up development and improve code quality, not to replace engineering judgment.
+## Engineering Ownership
 
-Outcome
+1. All architectural decisions, business logic, debugging, testing validation, and final code reviews were performed by me.
+2. AI tools were used to speed up development and improve code quality, not to replace engineering judgment.
+
+## Outcome
 Using AI tools helped reduce repetitive work, maintain consistent code quality, and allowed greater focus on problem-solving, testing, and system design
 
  📁 Project Structure
@@ -375,19 +377,23 @@ sweet-shop-management/
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](screenshots/login.png)
+<img width="1871" height="929" alt="image" src="https://github.com/user-attachments/assets/50cfe376-d8ce-4834-aa21-25ec448577f1" />
+
 *User-friendly login interface with demo credentials displayed*
 
 ### Dashboard - User View
-![Dashboard User](screenshots/dashboard-user.png)
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/5048d8b0-affb-4d3a-9ba2-4b33fb52c752" />
+
 *Browse and purchase sweets with search and filter capabilities*
 
 ### Dashboard - Admin View
-![Dashboard Admin](screenshots/dashboard-admin.png)
+<img width="1889" height="967" alt="image" src="https://github.com/user-attachments/assets/12907670-f0bb-49bc-bf43-a02fbcf464b7" />
+
 *Admin interface with additional controls for managing inventory*
 
 ### Add/Edit Sweet Form
-![Sweet Form](screenshots/sweet-form.png)
+<img width="512" height="682" alt="image" src="https://github.com/user-attachments/assets/ea5172ce-470d-4e01-8d40-f13958901b2b" />
+
 *Modal form for adding or editing sweet details*
 
 ## 🚀 Deployment
